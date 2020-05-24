@@ -1,0 +1,32 @@
+.design__image {
+    margin-bottom: 100px;
+}
+
+.design-content {
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        max-width: 570px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 15px;
+
+        &-num {
+            @include font-roboto-condensed;
+            font-size: 24px;
+            line-height: 28px;
+            color: $color-main-red;
+        }
+
+        &-text {
+            @include font-roboto-condensed;
+            font-size: 24px;
+            line-height: 28px;
+            color: $color-white;
+            max-width: 450px;
+            padding-top: 30px;
+            padding-bottom: 100px;
+        }
+    }
+}

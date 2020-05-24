@@ -5,3 +5,16 @@
 @mixin font-roboto-condensed {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+@mixin button {
+    @include font-roboto-condensed;
+    color: $color-white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid $color-white;
+    padding: 30px 62px;
+    transition: all 0.3s;
+}

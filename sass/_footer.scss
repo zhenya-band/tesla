@@ -1,0 +1,32 @@
+.footer {
+    background-color: $color-secondary-red;
+    padding: 83px 0 20px;
+}
+
+.footer-btn {
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.footer-links {
+    @include font-roboto-condensed;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: $color-white;
+
+    li {
+        display: inline-block;
+        padding: 0 10px;
+
+        &:not(:last-child) {
+            padding-right: 15px;
+            border-right: 3px solid $color-white;
+        }
+    }
+
+    a {
+        color: $color-white;
+    }
+}

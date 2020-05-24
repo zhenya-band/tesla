@@ -58,23 +58,13 @@
         width: 284px;
         margin-bottom: 25px;
     }
+}
 
-    &__btn {
-        @include font-roboto-condensed;
-        color: $color-white;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        display: inline-block;
-        background: rgba(255, 255, 255, 0.15);
+.button {
+    @include button;
+    &:hover {
+        background-color: #770302;
         border: 1px solid $color-white;
-        padding: 30px 62px;
-        transition: all 0.3s;
-
-        &:hover {
-            background-color: #770302;
-            border: 1px solid $color-white;
-        }
     }
 }
 
