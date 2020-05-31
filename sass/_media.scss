@@ -59,6 +59,17 @@
     .advantages__img img {
         width: 100%;
     }
+
+    .menu__list a {
+        font-size: 40px;
+        min-width: 350px;
+
+        &:hover {
+            border-color: $color-white;
+            transform: none;
+            margin-left: 0;
+        }
+    }
 }
 
 @media (max-width: 411px) {

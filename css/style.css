@@ -191,7 +191,7 @@ a {
   padding: 30px 25px 14px 0;
   border-bottom: 3px solid #B70021;
   display: inline-block;
-  min-width: 368px;
+  min-width: 410px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -483,6 +483,16 @@ a {
   }
   .advantages__img img {
     width: 100%;
+  }
+  .menu__list a {
+    font-size: 40px;
+    min-width: 350px;
+  }
+  .menu__list a:hover {
+    border-color: #FFFFFF;
+    -webkit-transform: none;
+            transform: none;
+    margin-left: 0;
   }
 }
 
